@@ -1,0 +1,13 @@
+.service__card{
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.service__card img{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}

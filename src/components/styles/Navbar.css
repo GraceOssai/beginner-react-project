@@ -1,0 +1,33 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  box-shadow: 0px 0px 10px rgb(244, 243, 243);
+  align-items: center;
+  padding: 0 5%;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav__left a{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav__left a span{
+  color: purple;
+}
+
+.nav__right{
+  display: flex;
+  column-gap: 50px;
+  text-transform: capitalize;
+}
+
+.nav__right a:hover{
+  color: purple;
+}
+
